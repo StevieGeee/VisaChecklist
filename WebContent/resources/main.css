@@ -1,0 +1,168 @@
+body, html{
+  font-family: Segoe UI, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #E7EFF3;
+}
+
+.navBanner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 2em;
+  color: #FFF;
+  background-color: #20335E;
+  font-size: 16pt;
+  padding-top: 0.5em;
+  text-indent: 1em;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.welcomeInstruction {
+	display: flex;
+	justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 16pt;
+}
+
+#visaPanel {
+	margin-top: 2em;
+}
+
+#choiceButtonContainer {
+	display: flex;
+    justify-content: center;
+}
+
+#choiceButtonContainer input[type=submit] {
+	
+	padding-top: 0.5em;
+  	height: 3em;
+  	width: 6.5em;
+    border-radius: 12px;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    font-size: 18pt;
+    font-family: SSegoe UI, Helvetica, sans-serif;
+    background-color: #0066cc;
+    background-image: none;
+    color: white;
+    padding: 0;
+    border: none;
+	cursor:pointer;
+
+	
+	
+	
+	
+/*     color:#08233e;
+    font:2.4em Futura, ‘Century Gothic’, AppleGothic, sans-serif;
+    font-size:70%;
+    padding:14px;
+
+    background-color:rgba(255,204,0,1);
+    border:1px solid #ffcc00;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    border-bottom:1px solid #9f9f9f;
+    -moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+    cursor:pointer; */
+}
+
+#choiceButtonContainer input[type=submit]:hover {
+    background-color:#00254d;
+}
+
+#flrMarriageBanner input[type=submit] {
+	
+	padding-top: 0.5em;
+  	height: 1.4em;
+  	width: 4em;
+  	margin-left: 1em;
+    margin-top: 0.5em;
+    border-radius: 12px;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    font-size: 16pt;
+    font-family: SSegoe UI, Helvetica, sans-serif;
+    background-color: #0066cc;
+    background-image: none;
+    color: white;
+    padding: 0;
+    border: none;
+	cursor:pointer;
+	
+	position: fixed;
+  	top: 0;
+  	left: 0;
+  	z-index: 101;
+
+}
+
+#flrMarriageBanner input[type=submit]:hover {
+    background-color: #3399ff; /*#00254d*/;
+}
+
+#flrMarriageContent {
+	width: 75%;
+	margin: auto;
+	margin-top: 4em;
+	font-size: 16pt;
+}
+
+/*#flrMarriageContent {
+        width: 500px;
+        clear: both;
+    }
+#flrMarriageContent input {
+        width: 100%;
+        clear: both;
+    }*/
+
+#flrMarriageContent div {
+	padding-bottom: 0.5em;
+}
+
+#flrMarriageContent form input {
+	font-size: 14pt;
+	font-family: Segoe UI, Helvetica, sans-serif;
+	width: 6em !important;
+	border-radius: 0;	
+	/*height: 40px !important;*/
+	text-indent: 0.25em;
+}	
+
+#flrMarriageSubmitContainer {
+	width: 100%;
+}
+
+#flrMarriageSubmitContainer input[type=submit] {
+	
+	padding-top: 0.5em;
+  	height: 2em;
+  	width: 100%;
+    border-radius: 12px;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    font-size: 18pt;
+    font-family: SSegoe UI, Helvetica, sans-serif;
+    background-color: #0066cc;
+    background-image: none;
+    color: white;
+    padding: 0;
+    border: none;
+	cursor:pointer;
+}
+
+#flrMarriageSubmitContainer input[type=submit]:hover {
+    background-color:#00254d;
+}
